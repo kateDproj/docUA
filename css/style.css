@@ -1,0 +1,164 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+p {
+    margin: 0;
+}
+
+body {
+    background: #39849b;
+}
+
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.wrap {
+    width: 50%;
+    margin: 50px auto;
+    background: #ffffff;
+    padding: 0 2% 2% 2%;
+    min-width: 320px;
+}
+
+header {
+    min-height: 120px;
+    background-image: url("../images/header.png");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 0 5%;
+    /* padding: 0 5% 3% 5%; */
+}
+
+main p {
+    margin: 2% 0;
+}
+
+.intro p,
+.intro ul {
+    font-size: 1.2rem;
+}
+
+.intro .intro-center {
+    text-align: center;
+}
+
+.column {
+    margin-top: 3%;
+    float: left;
+    width: 46%;
+}
+
+.left {
+    margin-right: 3%;
+}
+
+.right {
+    margin-left: 3%;
+}
+
+.card {
+    margin-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card p {
+    margin: 15px 0;
+}
+
+.card img {
+    width: 100%;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 0;
+    background: #d65c4b;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.intro .btn {
+    margin-top: 35px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.site-footer {
+    background: #39849b;
+    color: #ffffff;
+    text-align: center;
+    padding: 3%;
+    margin-top: 5%;
+}
+
+.site-footer p {
+    margin: 15px 0;
+}
+
+.icon-row {
+    margin-bottom: 2%;
+}
+
+.icon-row .facebook,
+.icon-row .vk {
+    display: inline-block;
+    width: 5%;
+    margin: 0.7%;
+}
+
+.icon-row .facebook:hover,
+.icon-row .vk:hover {
+    cursor: pointer;
+}
+
+.icon-row .facebook img,
+.icon-row .vk img {
+    width: 100%;
+}
+
+.site-footer .unfollow {
+    margin-top: -1.8%;
+}
+
+.unfollow a {
+    color: #ffffff;
+}
+/* media queries */
+@media (max-width: 1000px) {
+    .wrap {
+        width: 76%;
+        margin: 50px auto;
+        background: #ffffff;
+       
+    }
+}
+@media (max-width: 560px) {
+    .btn{
+        font-size: 15px;
+    }
+    .card p{
+        font-size: 17px;
+    }
+}
